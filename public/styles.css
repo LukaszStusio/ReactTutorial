@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: tan;
+}
+
+.margins {
+    box-sizing: border-box;
+    padding: 4rem 4rem 4rem 4rem;
+    max-width: 500px;
+    border: 2px solid tan;
+    min-height: 50vh;
+}
+
+input,
+button {
+    box-sizing: border-box;
+    background-color: tan;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    height: 2rem;
+    width: 10rem;
+    border: 1px solid #2e2e2e;;
+    box-shadow: 2px 3px 0px 0px #3b3b3b;
+    transition: 0.25s;
+}
+
+button:hover {
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.25s;
+}

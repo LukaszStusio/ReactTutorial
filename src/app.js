@@ -25,9 +25,7 @@ class Header extends React.Component {
 class Action extends React.Component {
     render() {
         return (
-            <div>
                 <button>What should I do?</button>
-            </div>
         )
     }
 }
@@ -35,13 +33,22 @@ class Action extends React.Component {
 class Options extends React.Component {
     render() {
         return (
-            <div class='div-margins'>
+            <div>
                 Options component here.
+                <Option />
             </div>
         );
     }
-
 }
+
+class Option extends React.Component {
+    render() {
+        return(
+            <p>Option</p>
+        );
+    }
+}
+
 class AddOption extends React.Component {
     render() {
         return (
@@ -50,13 +57,6 @@ class AddOption extends React.Component {
     }
 }
 
-const jsx = (
-    <div>
-        <Header />
-        <Action />
-        <Options />
-        <AddOption />
-    </div>
-);
 
-ReactDOM.render(jsx, document.getElementById('app'));
+
+ReactDOM.render(<IndecisionApp />, document.getElementById('app'));

@@ -24,9 +24,11 @@ button {
     box-shadow: 2px 3px 0px 0px #3b3b3b;
     transition: 0.25s;
 }
-
 button:hover {
     letter-spacing: 2px;
     cursor: pointer;
     transition: 0.25s;
+}
+.div-margins {
+    padding: 1rem;
 }
